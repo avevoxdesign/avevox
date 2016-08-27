@@ -1,0 +1,38 @@
+baseurl: "/"
+url: "http://avevox.github.io"
+# url: "http://127.0.0.1:4000"
+
+# Website settings
+title: "AVE VOW"
+description: "Ave Vow new website"
+keywords: "Ave,Vox,design,print,avevox,products"
+baseurl: "/"
+url: "http://www.avevox.bg"
+# url: "http://127.0.0.1:4000"
+
+# author
+author:
+  name: 'Ave Vox'
+  email: 'ave@vox.com'
+
+# landing page
+landing:
+  about: 'We are'
+  skills: 'Skills'
+  projects: 'Clients'
+  link: 'Contact'
+
+
+# google analytics
+# ga:
+#   id: UA-73784599-1
+
+# Build settings
+encoding: "utf-8"
+
+# other settings
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
