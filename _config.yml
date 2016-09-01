@@ -13,19 +13,14 @@ url: "http://www.avevox.bg"
 # author
 author:
   name: 'Ave Vox'
-  email: 'ave@vox.com'
+  email: 'office@avevox.bg'
 
 # landing page
 landing:
   about: 'We are'
-  skills: 'Skills'
   projects: 'Clients'
   link: 'Contact'
 
-
-# google analytics
-# ga:
-#   id: UA-73784599-1
 
 # Build settings
 encoding: "utf-8"
