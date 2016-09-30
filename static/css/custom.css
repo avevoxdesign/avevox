@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'myriad_pro';
-  src: font-url('fonts/myriad_pro.ttf') format('truetype');
+  src: font-url('fonts/myriad_pro.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -70,7 +70,7 @@ section#link .container {
 
 #address-ave-vox {
   color: rgb(255, 200, 31);
-  width: 190px;
+  /*width: 190px;*/
   display: table;
   margin: 0 auto;
 }
@@ -79,7 +79,6 @@ section#link .container {
   display: inline-block;
   float: left;
   margin-right: 10px;
-  height: 50px;
 }
 
 #address-ave-vox div {
@@ -151,5 +150,23 @@ section#project ul li:before {
 
   li#languages {
     position: relative !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  li#languages {
+    width: 135px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  li#languages {
+    width: 69px !important;
+  }
+}
+
+@media (min-width: 1000px) {
+  .navbar-header .navbar-brand {
+    margin-left: 63px !important;
   }
 }
