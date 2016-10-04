@@ -1,14 +1,12 @@
 baseurl: "/"
 url: "http://avevox.github.io"
-# url: "http://127.0.0.1:4000"
 
 # Website settings
 title: "AVEVOX"
 description: "Ave Vow new website"
-keywords: "Ave,Vox,design,print,avevox,products"
+keywords: "Ave, Vox, design, print, avevox, products"
 baseurl: "/"
 url: "http://www.avevox.bg"
-# url: "http://127.0.0.1:4000"
 
 # author
 author:
