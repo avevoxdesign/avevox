@@ -126,6 +126,7 @@ li#languages {
 li#languages a {
   height: 20px !important;
   padding: 4px;
+  text-align: right;
 }
 
 .main-description div h2 {
@@ -204,6 +205,12 @@ section#project ul li:before {
 @media (min-width: 1200px) {
   li#languages {
     width: 135px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  img.we-are.hidden {
+    display: block !important;
   }
 }
 
