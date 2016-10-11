@@ -60,6 +60,9 @@ permalink: /
                 <img src="static/img/sections/are.jpg" style="width: auto; max-height: 240px;" alt="we are" class="we-are"/>
             </div>
         </div>
+        <div class="icon-arrow hidden-xs">
+            <span class="glyphicon glyphicon-chevron-down"></span>
+        </div>
     </div>
 </section>
 
@@ -234,6 +237,18 @@ permalink: /
         init();
 
     })();
+
+    $(window).scroll(function() {
+
+    if ($(this).scrollTop() > 0)
+        {
+            $('.icon-arrow').fadeOut();
+        }
+    else
+        {
+            $('.icon-arrow').fadeIn();
+        }
+    });
 </script>
 
 <script>
